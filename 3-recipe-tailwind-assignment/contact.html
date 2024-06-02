@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title> RecipeHub</title>
+  </head>
+  <body>
+    <!-- This is header section -->
+    <header>
+      <nav class="navbar w-full">
+        <div class="left">
+          <h1 class="text-2xl font-bold text-red-600">RecipeHub</h1>
+        </div>
+        <div class="right">
+          <ul class="nav-items">
+            <li><a class="hover:text-red-600" href="index.html">Home</a></li>
+            <li><a class="hover:text-red-600" href="menu.html">Menu</a></li>
+            <li><a class="hover:text-red-600" href="reservation.html">Reservation</a></li>
+            <li><a class="hover:text-red-600" href="contact.html">Contact us</a></li>
+            <li>
+              <a class="hover:text-red-600" href="dashboard.html">Dashboard</a>
+            </li>
+            <li><a class="ms-12 text-green-600 hover:text-red-600" href="login.html">Login</a></li>
+            <li><a class="text-green-600 hover:text-red-600" href="register.html">Registration</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!-- This is main section  -->
+    <main>
+      
+      <div class="grid grid-cols-2 gap-4 mt-28 mx-8">
+        <div><h1 class="text-3xl font-bold text-red-600">Our Address</h1>
+        <p class="mt-4">
+          Address: 123 Culinary Avenue, Uttara, Dhaka, Bangladesh
+    
+          <br> 
+          E-mail: recipehub@gmail.com
+          <br>
+          Contact Number: 
+          <a href="tel:+8801920693718">+8801920693718</a>
+        </p>
+        
+        
+        </div>
+        <div class="">
+          <h1 class="text-3xl font-bold text-red-600 mb-8 text-center">Contact Us</h1>
+        <form>
+          <label class="form-control w-full">
+            <div class="label">
+              <span class="label-text">Name</span>
+            </div>
+            <input
+              type="text"
+              placeholder="Name"
+              class="input input-bordered p-2 w-full border-2 border-black"
+              required
+            />
+          </label>
+
+          <label class="form-control w-full">
+            <div class="label">
+              <span class="label-text">Email</span>
+            </div>
+            <input
+              type="email"
+              placeholder="Your email"
+              class="input input-bordered p-2 w-full border-2 border-black"
+              required
+            />
+          </label>
+
+          <label>
+            <div class="label">
+              <span class="label-text">Message</span>
+            </div>
+            <textarea
+              class="textarea textarea-bordered h-24 w-full p-2 border-2 border-black"
+              placeholder="Your message" required
+            >
+</textarea>
+          </label>
+            <button type="submit" class="btn bg-red-600 text-white p-2 w-full mt-8">
+              Send Message
+            </button>
+        </form>
+
+        </div>
+      </div>
+
+
+      <br>
+      <!-- map -->
+      <h1 class="text-3xl font-bold text-red-600 my-8 text-center">Find us on google map</h1>
+      <div class="relative w-full h-96 px-4">
+        <iframe class="w-full" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14594.223920383965!2d90.37896439999999!3d23.8698959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1717352936438!5m2!1sen!2sbd" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    </main>
+    
+    <!-- This is footer section -->
+    <footer>
+      <div class="mt-20 bg-gray-900 py-16 flex justify-center items-center">
+        <div>
+          <h1 class="text-3xl text-center text-red-600">My Recipe app</h1>
+          <p class="text-white text-center mt-2">All rights received ©Mostafizur</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

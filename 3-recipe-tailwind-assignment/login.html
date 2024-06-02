@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Login Page</title>
+  </head>
+  <body>
+    <!-- This is header section -->
+    <header>
+      <nav class="navbar w-full">
+        <div class="left">
+          <h1 class="text-2xl font-bold text-red-600">RecipeHub</h1>
+        </div>
+        <div class="right">
+          <ul class="nav-items">
+            <li><a class="hover:text-red-600" href="index.html">Home</a></li>
+            <li><a class="hover:text-red-600" href="menu.html">Menu</a></li>
+            <li><a class="hover:text-red-600" href="reservation.html">Reservation</a></li>
+            <li><a class="hover:text-red-600" href="contact.html">Contact us</a></li>
+            <li>
+              <a class="hover:text-red-600" href="dashboard.html">Dashboard</a>
+            </li>
+            <li><a class="ms-12 text-green-600 hover:text-red-600" href="login.html">Login</a></li>
+            <li><a class="text-green-600 hover:text-red-600" href="register.html">Registration</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="flex justify-center items-center h-full w-full">
+        <form class="mt-24 mb-12 border-2 border-black px-12 py-24 rounded-lg">
+          <h1 class="text-3xl font-bold text-green-600 text-center mb-8">Login to your Account</h1>
+          <div>
+            <label class="block mb-2" for="email">Your Email</label>
+            <input
+              class="border-2 border-black p-4 w-96 rounded-xl"
+              type="email"
+              name="email"
+              placeholder="Email"
+            />
+          </div>
+          <div class="mt-2">
+            <label class="block mb-2" for="email">Your Password</label>
+            <input
+              class="border-2 border-black p-4 w-96 rounded-xl"
+              type="password"
+              name="password"
+              placeholder="Password"
+            />
+          </div>
+          <div class="mt-6">
+            <input
+              class="btn bg-red-600 p-4 text-white w-full rounded-lg"
+              type="submit"
+              name="submit"
+              value="Login"
+            />
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <div class="mt-20 bg-gray-900 py-16 flex justify-center items-center">
+        <div> 
+          <h1 class="text-3xl text-center text-red-600">RecipeHub - Your desired recipes</h1>
+          <p class="text-white text-center mt-2">All rights received ©Mostafizur</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>My Recipes</title>
+  </head>
+  <body>
+    <div class="grid grid-cols-12">
+      <div id="sidebar" class="col-span-2 bg-gray-700 min-h-screen">
+        <div class="px-6 py-12">
+          <ul class="space-y-2">
+            <li
+              class="btn px-8 py-4 bg-red-600 text-white w-full rounded-lg hover:bg-red-600/70 cursor-pointer"
+            >
+              <a href="dashboard.html">Profile</a>
+            </li>
+            <li
+              class="btn px-8 py-4 bg-red-600 text-white w-full rounded-lg hover:bg-red-600/70 cursor-pointer"
+            >
+              <a href="my-recipe.html">My Recipes</a>
+            </li>
+            <li
+              class="btn px-8 py-4 bg-red-600 text-white w-full rounded-lg hover:bg-red-600/70 cursor-pointer"
+            >
+              <a href="add-recipe.html">Add Recipes</a>
+            </li>
+            <li
+              class="btn px-8 py-4 bg-red-600 text-white w-full rounded-lg hover:bg-red-600/70 cursor-pointer"
+            >
+              <a href="index.html">Home</a>
+            </li>
+            <li
+              class="btn px-8 py-4 bg-red-600 text-white w-full rounded-lg hover:bg-red-600/70 cursor-pointer"
+            >
+              <a href="">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <main class="col-span-10 bg-gray-200 min-h-screen w-full">
+        <div>
+          <h1 class="text-3xl font-bold text-center my-12">My Recipe</h1>
+
+          <!-- uni hoitesen card er parent -->
+          <div class="my-12 px-24 flex flex-wrap gap-6 justify-between">
+            <!-- card 1 -->
+            <div class="card w-96 bg-base-100 shadow-xl">
+              <figure>
+                <img
+                  src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpg?quality=90&resize=556,505"
+                  alt="Food image"
+                />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">
+                  Italian Pasta
+                  <div class="badge badge-secondary">NEW</div>
+                </h2>
+                <h2 class="text-md font-semibold">Rating: 4.5 /5.00</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                  saepe explicabo nostrum blanditiis consectetur dignissimos
+                  reiciendis beatae tempora! Natus, sapiente.
+                </p>
+                <div class="card-actions justify-center mt-4">
+                  <button class="btn p-4 bg-red-600 text-white w-full">
+                    See Details
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- card-2 -->
+            <div class="card w-96 bg-base-100 shadow-xl">
+              <figure>
+                <img
+                  src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpg?quality=90&resize=556,505"
+                  alt="Food image"
+                />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">
+                  Italian Pasta
+                  <div class="badge badge-secondary">NEW</div>
+                </h2>
+                <h2 class="text-md font-semibold">Rating: 4.5 /5.00</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                  saepe explicabo nostrum blanditiis consectetur dignissimos
+                  reiciendis beatae tempora! Natus, sapiente.
+                </p>
+                <div class="card-actions justify-center mt-4">
+                  <button class="btn p-4 bg-red-600 text-white w-full">
+                    See Details
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- card-3 -->
+            <div class="card w-96 bg-base-100 shadow-xl">
+              <figure>
+                <img
+                  src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpg?quality=90&resize=556,505"
+                  alt="Food image"
+                />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">
+                  Italian Pasta
+                  <div class="badge badge-secondary">NEW</div>
+                </h2>
+                <h2 class="text-md font-semibold">Rating: 4.5 /5.00</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                  saepe explicabo nostrum blanditiis consectetur dignissimos
+                  reiciendis beatae tempora! Natus, sapiente.
+                </p>
+                <div class="card-actions justify-center mt-4">
+                  <button class="btn p-4 bg-red-600 text-white w-full">
+                    See Details
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- card-4 -->
+            <div class="card w-96 bg-base-100 shadow-xl">
+              <figure>
+                <img
+                  src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpg?quality=90&resize=556,505"
+                  alt="Food image"
+                />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">
+                  Italian Pasta
+                  <div class="badge badge-secondary">NEW</div>
+                </h2>
+                <h2 class="text-md font-semibold">Rating: 4.5 /5.00</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                  saepe explicabo nostrum blanditiis consectetur dignissimos
+                  reiciendis beatae tempora! Natus, sapiente.
+                </p>
+                <div class="card-actions justify-center mt-4">
+                  <button class="btn p-4 bg-red-600 text-white w-full">
+                    See Details
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- card-5 -->
+            <div class="card w-96 bg-base-100 shadow-xl">
+              <figure>
+                <img
+                  src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpg?quality=90&resize=556,505"
+                  alt="Food image"
+                />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">
+                  Italian Pasta
+                  <div class="badge badge-secondary">NEW</div>
+                </h2>
+                <h2 class="text-md font-semibold">Rating: 4.5 /5.00</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                  saepe explicabo nostrum blanditiis consectetur dignissimos
+                  reiciendis beatae tempora! Natus, sapiente.
+                </p>
+                <div class="card-actions justify-center mt-4">
+                  <button class="btn p-4 bg-red-600 text-white w-full">
+                    See Details
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- card-6 -->
+            <div class="card w-96 bg-base-100 shadow-xl">
+              <figure>
+                <img
+                  src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpg?quality=90&resize=556,505"
+                  alt="Food image"
+                />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">
+                  Italian Pasta
+                  <div class="badge badge-secondary">NEW</div>
+                </h2>
+                <h2 class="text-md font-semibold">Rating: 4.5 /5.00</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                  saepe explicabo nostrum blanditiis consectetur dignissimos
+                  reiciendis beatae tempora! Natus, sapiente.
+                </p>
+                <div class="card-actions justify-center mt-4">
+                  <button class="btn p-4 bg-red-600 text-white w-full">
+                    See Details
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- card-7 -->
+            <div class="card w-96 bg-base-100 shadow-xl">
+              <figure>
+                <img
+                  src="https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpg?quality=90&resize=556,505"
+                  alt="Food image"
+                />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title">
+                  Italian Pasta
+                  <div class="badge badge-secondary">NEW</div>
+                </h2>
+                <h2 class="text-md font-semibold">Rating: 4.5 /5.00</h2>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint
+                  saepe explicabo nostrum blanditiis consectetur dignissimos
+                  reiciendis beatae tempora! Natus, sapiente.
+                </p>
+                <div class="card-actions justify-center mt-4">
+                  <button class="btn p-4 bg-red-600 text-white w-full">
+                    See Details
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

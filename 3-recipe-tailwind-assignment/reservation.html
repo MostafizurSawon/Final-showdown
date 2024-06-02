@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>RecipeHub</title>
+  </head>
+  <body>
+    <!-- This is header section -->
+    <header>
+      <nav class="navbar w-full">
+        <div class="left">
+          <h1 class="text-2xl font-bold text-red-600">RecipeHub</h1>
+        </div>
+        <div class="right">
+          <ul class="nav-items">
+            <li><a class="hover:text-red-600" href="index.html">Home</a></li>
+            <li><a class="hover:text-red-600" href="menu.html">Menu</a></li>
+            <li><a class="hover:text-red-600" href="reservation.html">Reservation</a></li>
+            <li><a class="hover:text-red-600" href="contact.html">Contact us</a></li>
+            <li>
+              <a class="hover:text-red-600" href="dashboard.html">Dashboard</a>
+            </li>
+            <li><a class="ms-12 text-green-600 hover:text-red-600" href="login.html">Login</a></li>
+            <li><a class="text-green-600 hover:text-red-600" href="register.html">Registration</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <div class="px-8 mt-24">
+        <h1 class="text-3xl font-bold text-red-600 mb-8 text-center">Reserve a table!</h1>
+      <form class="">
+        <label class="form-control w-full">
+          <div class="label">
+            <span class="label-text">Name</span>
+          </div>
+          <input
+            type="text"
+            placeholder="Name"
+            class="input input-bordered p-2 w-full border-2 border-black"
+            required
+          />
+        </label>
+
+        <label class="form-control w-full">
+          <div class="label">
+            <span class="label-text">Email</span>
+          </div>
+          <input
+            type="email"
+            placeholder="Your email"
+            class="input input-bordered p-2 w-full border-2 border-black"
+            required
+          />
+        </label>
+
+        <label class="form-control w-full">
+          <div class="label">
+            <span class="label-text">Phone</span>
+          </div>
+          <input
+            type="text"
+            placeholder="Your Contact Number"
+            class="input input-bordered p-2 w-full border-2 border-black"
+            required
+          />
+        </label>
+
+        <label class="form-control w-full">
+          <div class="label">
+            <span class="label-text">Number of guest</span>
+          </div>
+          <input
+            type="number"
+            placeholder="Total number of people"
+            class="input input-bordered p-2 w-full border-2 border-black"
+            required
+          />
+        </label>
+
+        <label class="form-control w-full">
+          <div class="label">
+            <span class="label-text">Time</span>
+          </div>
+          <input
+            type="time"
+            placeholder="Time"
+            class="input input-bordered p-2 w-full border-2 border-black"
+            required
+          />
+        </label>
+
+        <label class="form-control w-full">
+          <div class="label">
+            <span class="label-text">Time</span>
+          </div>
+          <input
+            type="date"
+            placeholder="Date"
+            class="input input-bordered p-2 w-full border-2 border-black"
+            required
+          />
+        </label>
+
+        <label>
+          <div class="label">
+            <span class="label-text">Special Request</span>
+          </div>
+          <textarea
+            class="textarea textarea-bordered h-24 w-full p-2 border-2 border-black"
+            placeholder="Your request" required
+          >
+</textarea>
+        </label>
+          <button type="submit" class="btn bg-red-600 text-white p-2 w-full mt-8">
+            Reserve
+          </button>
+      </form>
+
+      </div>
+
+    </main>
+    
+    <!-- This is footer section -->
+    <footer>
+      <div class="mt-20 bg-gray-900 py-16 flex justify-center items-center">
+        <div>
+          <h1 class="text-3xl text-center text-red-600">My Recipe app</h1>
+          <p class="text-white text-center mt-2">All rights received ©Mostafizur</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
