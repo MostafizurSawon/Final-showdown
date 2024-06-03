@@ -4,34 +4,11 @@
   max-width: 100%;
 }
 
-header {
-  margin: 0;
-  padding: 0;
-}
-
-.navbar {
-  width: 100vw;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-}
-
-nav{
+/* nav{
   top: 0;
   position: fixed;
-  background: whitesmoke;
-}
+} */
 
-.nav-items {
-  display: flex;
-  justify-content: center;
-  gap: 15px;
-}
-
-.nav-items li {
-  list-style-type: none;
-}
 
 a {
   text-decoration: none;
@@ -51,10 +28,9 @@ a:visited {
   height: 100vh;
 }
 
-.hero {
-  width: 70%;
-  height: 100%;
+/* .hero {
+  width: 100vw;
+  height: 100vh;
   display: flex;
   align-items: center;
-  padding: 0 50px;
-}
+} */
