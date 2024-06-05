@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+}
+.logo {
+  color: rgb(199, 10, 4);
+}
+
+
+.banner {
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.banner {
+  background-image: url("../images/banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+/* .hero {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+} */
