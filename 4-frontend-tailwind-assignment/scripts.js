@@ -34,3 +34,28 @@ document.addEventListener('DOMContentLoaded', function () {
     }
   });
 });
+
+
+
+
+const handlelogOut = () => {
+  const token = localStorage.getItem("token");
+
+  fetch("https://gardenhub-django.onrender.com/user/logout/", {
+    method: "POST",
+    headers: {
+      Authorization: `Token ${token}`,
+      "Content-Type": "application/json",
+    },
+  })
+    .then((res) => res.json())
+    .then((data) => {
+      console.log("logout data ->",data);
+      localStorage.removeItem("token");
+      localStorage.removeItem("user");
+      localStorage.removeItem("user_id");
+      window.location.href = "login.html";
+    });
+  // const pi1 = document.getElementById("pro-image1");
+  // pi1.innerHTML = `<img src="https://img.freepik.com/free-vector/isolated-young-handsome-man-different-poses-white-background-illustration_632498-859.jpg" class="img-fluid rounded-circle" alt="Profile Pic">`;
+};
