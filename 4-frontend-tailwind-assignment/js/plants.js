@@ -1,7 +1,7 @@
 function addPlant(event) {
     event.preventDefault();
     const url = 'https://gardenhub-django.onrender.com/plants/plant-list/';
-    const user_id = localStorage.getItem('user_id'); 
+    const user_id = localStorage.getItem('user'); 
     const title = document.getElementById('title').value;
     const price = document.getElementById('price').value;
     const category = document.getElementById('category').value;

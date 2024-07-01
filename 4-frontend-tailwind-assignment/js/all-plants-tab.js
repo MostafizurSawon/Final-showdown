@@ -1,6 +1,7 @@
 const loadDash = () => {
   fetch(
-    `https://gardenhub-django.onrender.com/plants/plant-list/`
+    // `https://gardenhub-django.onrender.com/plants/plant-list/`
+    'http://127.0.0.1:8000/plants/plant-list/'
   )
     .then((res) => res.json())
     .then((data) => {
